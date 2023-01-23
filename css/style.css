@@ -1,0 +1,74 @@
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+    --font-garamond: 'EB Garamond', serif;
+    --primary-button-color: #B68C5A;
+    --normal-text-color: #707070;
+    --section-title-color: #414040;
+    --footer-text-color: #CFCFCF;
+    --normal-color: #fff;
+    --banner-text-color: #E7E7E7;
+}
+
+/* ===========================
+    Common css start
+=========================== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,ol {
+    list-style-type: none;
+}
+
+/* ===========================
+    Common css end
+=========================== */
+
+
+/* ===========================
+    navbar css start
+=========================== */
+.navbar-nav .nav-item .nav-link {
+    font-family: var(--font-poppins);
+}
+
+.navbar-collapse button {
+    font-family: var(--font-poppins);
+}
+
+/* ===========================
+    navbar css end
+=========================== */
+
+
+/* ===========================
+    banner css start
+=========================== */
+.banner-bg {
+    background: linear-gradient(to top, rgb(17, 17, 17), rgba(17, 17, 17, 0)), url(../images/banner.png) no-repeat center/cover;
+    padding: 104px 0;
+}
+
+.banner-title {
+    font-family: var(--font-garamond);
+}
+
+.banner-sub-title {
+    font-family: var(--font-poppins);
+    padding: 0 100px;
+}
+
+.banner-content input {
+    font-family: var(--font-poppins);
+}
+
+/* ===========================
+    banner css end
+=========================== */
+
