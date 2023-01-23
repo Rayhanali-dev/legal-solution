@@ -101,6 +101,36 @@ ul,ol {
 
 
 /* =============================
+    carousel css start
+============================= */
+.carousel-item-1 {
+    background: linear-gradient(to top, rgb(17, 17, 17), rgba(17, 17, 17, 0)), url(../images/slider-1.jpg) no-repeat center/cover;
+    padding: 190px 135px;
+}
+
+.carousel-item-2 {
+    background: linear-gradient(to top, rgb(17, 17, 17), rgba(17, 17, 17, 0)), url(../images/slider-2.jpg) no-repeat center/cover;
+    padding: 190px 135px;
+}
+
+.carousel-item-3 {
+    background: linear-gradient(to top, rgb(17, 17, 17), rgba(17, 17, 17, 0)), url(../images/slider-3.jpg) no-repeat center/cover;
+    padding: 190px 135px;
+}
+
+.slide-title {
+    font-family: var(--font-garamond);
+}
+
+.slide-sub-title {
+    font-family: var(--font-poppins);
+}
+/* =============================
+    carousel css end
+============================= */
+
+
+/* =============================
         FAQ css start
 ============================= */
 
