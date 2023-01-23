@@ -26,6 +26,7 @@ ul,ol {
     list-style-type: none;
 }
 
+
 /* ===========================
     Common css end
 =========================== */
@@ -71,4 +72,52 @@ ul,ol {
 /* ===========================
     banner css end
 =========================== */
+
+
+/* =============================
+    practice area css start
+============================= */
+
+.practice-area-title {
+    font-family: var(--font-garamond);
+}
+
+
+.practice-item:hover {
+    background-image: linear-gradient(rgb(243, 243, 243), rgba(243, 243, 243, 0));
+}
+
+.practice-item-title {
+    font-family: var(--font-garamond);
+}
+
+.practice-sub-title {
+    font-family: var(--font-poppins);
+}
+
+/* =============================
+    practice area css end
+============================= */
+
+
+/* =============================
+        FAQ css start
+============================= */
+
+.accorditon-title {
+    font-family: var(--font-garamond);
+}
+
+.accordition-description {
+    font-family: var(--font-poppins);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+
+/* =============================
+        FAQ css start
+============================= */
 
