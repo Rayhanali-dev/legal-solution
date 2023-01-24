@@ -1,12 +1,6 @@
 :root {
     --font-poppins: 'Poppins', sans-serif;
     --font-garamond: 'EB Garamond', serif;
-    --primary-button-color: #B68C5A;
-    --normal-text-color: #707070;
-    --section-title-color: #414040;
-    --footer-text-color: #CFCFCF;
-    --normal-color: #fff;
-    --banner-text-color: #E7E7E7;
 }
 
 /* ===========================
@@ -15,6 +9,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -26,11 +21,9 @@ ul,ol {
     list-style-type: none;
 }
 
-
 /* ===========================
     Common css end
 =========================== */
-
 
 /* ===========================
     navbar css start
@@ -47,11 +40,10 @@ ul,ol {
     navbar css end
 =========================== */
 
-
 /* ===========================
     banner css start
 =========================== */
-.banner-bg {
+.banner {
     background: linear-gradient(to top, rgb(17, 17, 17), rgba(17, 17, 17, 0)), url(../images/banner.png) no-repeat center/cover;
     padding: 104px 0;
 }
@@ -62,7 +54,6 @@ ul,ol {
 
 .banner-sub-title {
     font-family: var(--font-poppins);
-    padding: 0 100px;
 }
 
 .banner-content input {
@@ -73,7 +64,6 @@ ul,ol {
     banner css end
 =========================== */
 
-
 /* =============================
     practice area css start
 ============================= */
@@ -81,7 +71,6 @@ ul,ol {
 .practice-area-title {
     font-family: var(--font-garamond);
 }
-
 
 .practice-item:hover {
     background-image: linear-gradient(rgb(243, 243, 243), rgba(243, 243, 243, 0));
@@ -98,7 +87,6 @@ ul,ol {
 /* =============================
     practice area css end
 ============================= */
-
 
 /* =============================
     carousel css start
@@ -129,7 +117,6 @@ ul,ol {
     carousel css end
 ============================= */
 
-
 /* =============================
         FAQ css start
 ============================= */
@@ -146,8 +133,40 @@ ul,ol {
     box-shadow: none;
 }
 
-
 /* =============================
         FAQ css start
 ============================= */
 
+/* =============================
+        Contact css start
+============================= */
+.contact-left {
+    background-color: red;
+}
+
+.contact-title {
+    font-family: var(--font-garamond);
+}
+
+.contact-text {
+    font-family: var(--font-poppins);
+}
+
+/* =============================
+        Contact css end
+============================= */
+
+/* =============================
+        Footer css start
+============================= */
+
+.footer-title {
+    font-family: var(--font-garamond);
+}
+
+.first-text {
+    font-family: var(--font-poppins);
+}
+/* =============================
+        Footer css end
+============================= */
