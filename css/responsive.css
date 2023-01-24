@@ -1,0 +1,42 @@
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .practice-item {
+        border: none !important;
+    }
+    .practice-item-1 {
+        border-bottom: 1px solid #ddd !important;
+    }
+    .practice-item-2 {
+        border-left: 1px solid #ddd !important;
+    }
+    .practice-item-3 {
+        border-bottom: none !important;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .practice-item {
+        border: none !important;
+    }
+    .practice-item-1 {
+        border-bottom: 1px solid #ddd !important;
+    }
+    .practice-item-2 {
+        border-left: 1px solid #ddd !important;
+    }
+    .practice-item-3 {
+        border-bottom: none !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .contact-left {
+        border: none !important;
+        /* margin-bottom: 20px; */
+    }
+    .practice-item {
+        border: none !important;
+    }
+    .practice-item-1 {
+        border-bottom: 1px solid #ddd !important;
+    }
+}
