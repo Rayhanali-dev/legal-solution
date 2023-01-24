@@ -11,6 +11,24 @@
     .practice-item-3 {
         border-bottom: none !important;
     }
+    /* =============================
+          carousel css start
+    ============================= */
+    .carousel-item-1 {
+        padding-top: 250px;
+    }
+
+    .carousel-item-2 {
+        padding-top: 250px;
+    }
+
+    .carousel-item-3 {
+        padding-top: 250px;
+    }
+
+    /* =============================
+          carousel css end
+    ============================= */
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
@@ -26,6 +44,24 @@
     .practice-item-3 {
         border-bottom: none !important;
     }
+    /* =============================
+          carousel css start
+    ============================= */
+    .carousel-item-1 {
+        padding-top: 250px;
+    }
+
+    .carousel-item-2 {
+        padding-top: 250px;
+    }
+
+    .carousel-item-3 {
+        padding-top: 250px;
+    }
+
+    /* =============================
+          carousel css end
+    ============================= */
 }
 
 @media screen and (max-width: 575px) {
@@ -39,4 +75,27 @@
     .practice-item-1 {
         border-bottom: 1px solid #ddd !important;
     }
+
+
+    /* =============================
+          carousel css start
+    ============================= */
+    .carousel-item-1 {
+        padding-top: 280px;
+        padding-bottom: 280px;
+    }
+
+    .carousel-item-2 {
+        padding-top: 280px;
+        padding-bottom: 280px;
+    }
+
+    .carousel-item-3 {
+        padding-top: 280px;
+        padding-bottom: 280px;
+    }
+
+    /* =============================
+          carousel css end
+    ============================= */
 }
